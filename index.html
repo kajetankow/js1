@@ -11,10 +11,12 @@
 	{
 		
 		font-family: 'PT Sans Narrow', sans-serif;
-		width: 90vw;
+		width: 80%;
 		margin-left: auto;
 		margin-right: auto;
 		background-color:rgb(255, 255, 255);
+		border-radius: 40px;
+		
 	}
 	#logo
 	{
@@ -22,6 +24,8 @@
 		color: white;
 		text-align: center;
 		padding: 15px;
+		border-top-left-radius: 25px;
+		border-top-right-radius: 25px;
 	}
 	#nav
 	{
@@ -37,11 +41,11 @@
 	{
 		float: left;
 		padding: 20px;
-		width: 640px;
+		width: 60vw;
 	}
 	#ad
 	{
-		float: left;
+		float: right;
 		width: 260px;
 		min-height: 700px;
 		padding: 10px;
@@ -54,15 +58,35 @@
 		color: white;
 		text-align: center;
 		padding: 20px;
+		border-bottom-left-radius: 25px;
+		border-bottom-right-radius: 25px;
 	}	
-	
+	a:link{
+    color:#060608;
+    text-decoration:none;
+    font-size:0.7vw;
+    position:relative;
+
+    }
+    a:visited{
+    color:#060608;
+    }
+    a:hover{
+    color: #133254;
+    font-size:1vw;
+    transition:1s;
+    letter-spacing:3px;
+    position:relative;
+    float: center;
+    }
 	</style>
 	
 
 </head>
 
 <body>
-
+<link rel="shortcut icon" href="img/2.png" type="image/x-icon">
+<link rel="icon" href="img/2.png">
 	<div id="container">
 	
 		<div id="logo">
@@ -96,7 +120,7 @@
 		</div>
 		
 		<div id="content">
-			<h2><center>Mapa Europy</center></h2>
+			<center><h2><center>Mapa Europy</center></h2>
 			<img src="img/mapa.jpg" style="display: inline-block;" usemap="#europa"/>
 			<map name="europa">
 			<area shape = "rect" coords="398, 304, 445, 320" alt="polska" href="polska.html"/>
@@ -105,7 +129,7 @@
 			<area shape = "rect" coords="211, 379, 268, 391" alt="francja" href="francja.html"/>
 			<area shape = "rect" coords="192, 270, 247, 287" alt="uk" href="uk.html"/>
 			<area shape = "rect" coords="455, 444, 530, 465" alt="bulgaria" href="bulgaria.html"/>
-			<a><em><center>Kliknij na nazwę państwa</center></em></a>
+			<em><center>Kliknij na nazwę państwa</center></em></center>
         
 
 		
